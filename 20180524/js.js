@@ -551,7 +551,6 @@ function majOPSTextarea(){
   var xhr =getXMLHttpRequest();
   xhr.open("GET",url,false);
   xhr.send();
-  console.log(xhr);
 }
 
 function majNextOPS(){
@@ -569,7 +568,6 @@ function majNAVTextarea(){
   var xhr =getXMLHttpRequest();
   xhr.open("GET",url,false);
   xhr.send();
-	console.log(xhr);
 }
 
 function majNextNAV(){
