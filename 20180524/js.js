@@ -43,7 +43,6 @@ function lectEquipeQuart(){
   "&tech="+tech+"&cdq1="+cdq1+"&cdq2="+cdq2+"&cdq3="+cdq3+"&adj1="+adj1+"&adj2="+adj2+"&adj3="+adj3;
   xhr.open("GET",url,false);
   xhr.send();
-  console.log(xhr);
 }
 
 function ajoutMoyenSortit() {
@@ -552,6 +551,7 @@ function majOPSTextarea(){
   var xhr =getXMLHttpRequest();
   xhr.open("GET",url,false);
   xhr.send();
+  console.log(xhr);
 }
 
 function majNextOPS(){
